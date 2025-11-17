@@ -13,7 +13,7 @@ pipeline{
         }
         stage('Ejecuta') {
             steps {
-                sh 'java HolaMundo'
+                sh 'java Hola'
             }
         }
         stage('Despliegue'){
