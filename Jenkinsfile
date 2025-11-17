@@ -18,6 +18,7 @@ pipeline{
         }
         stage('Despliegue'){
             steps {
+				sh 'jar cf Hola.jar Hola.class'
                 archiveArtifacts artifacts: '*.jar', fingerprint: true
             }
         }
