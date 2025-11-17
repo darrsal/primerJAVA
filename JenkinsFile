@@ -3,7 +3,7 @@ pipeline{
 	stages{
         stage('Descargar repositorio') { 
             steps {
-				        git url: 'https://github.com/darrsal/CalculosTDD.git', branch: 'main'
+				        git url: 'https://github.com/darrsal/primerJAVA.git', branch: 'main'
             }
         }
         stage('Build') {
